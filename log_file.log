@@ -1,0 +1,42 @@
+2025-07-28 18:42:27,333 - INFO - -------------------------------------------
+2025-07-28 18:42:27,333 - INFO - Extracting the Data
+2025-07-28 18:42:27,333 - INFO - Starting the Data Extraction from C:\Users\yamin\OneDrive\CleanBites\data\raw_data.csv
+
+2025-07-28 18:42:27,528 - INFO - ------------------------------------------------------------
+2025-07-28 18:42:27,528 - INFO - EXTRACTION DONE :)
+2025-07-28 18:42:27,528 - INFO - -------------------------------------------------------------
+
+2025-07-28 18:42:27,528 - INFO - Data Cleaning Started
+2025-07-28 18:42:27,704 - INFO - Cleaned 'Customer_Name'
+2025-07-28 18:42:27,924 - INFO - Transformed 'Email' column
+2025-07-28 18:42:27,941 - INFO - Dropped 'Phone' column
+2025-07-28 18:42:27,964 - INFO - Parsed and formatted 'Order_Date'
+2025-07-28 18:42:28,006 - INFO - Filled missing 'Delivery_Time_Mins' and ensured numeric
+2025-07-28 18:42:28,049 - INFO - Fixed 'Order_Amount' formatting
+2025-07-28 18:42:28,086 - INFO - Cleaned 'Region' values
+2025-07-28 18:42:28,146 - INFO - Fixed 'Delivery_Status' mappings and format
+2025-07-28 18:42:28,281 - INFO - Formatted 'Food_Item'
+2025-07-28 18:42:28,282 - INFO - Converted column names to uppercase
+
+2025-07-28 18:42:28,634 - INFO - ------------------------------------------------------------
+2025-07-28 18:42:28,634 - INFO - DATA CLEANING ALL COLUMNS DONE - DATE IS PURE :)
+2025-07-28 18:42:28,634 - INFO - ------------------------------------------------------------
+
+2025-07-28 18:42:28,634 - INFO - Data Loading
+2025-07-28 18:42:28,634 - INFO - Connecting to Snowflake
+2025-07-28 18:42:28,634 - INFO - Snowflake Connector for Python Version: 3.14.0, Python Version: 3.10.0, Platform: Windows-10-10.0.26100-SP0
+2025-07-28 18:42:28,635 - INFO - Connecting to GLOBAL Snowflake domain
+2025-07-28 18:42:28,635 - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2025-07-28 18:42:28,635 - INFO - THIS CONNECTION IS IN INSECURE MODE. IT MEANS THE CERTIFICATE WILL BE VALIDATED BUT THE CERTIFICATE REVOCATION STATUS WILL NOT BE CHECKED.
+2025-07-28 18:42:29,329 - INFO - THIS CONNECTION IS IN INSECURE MODE. IT MEANS THE CERTIFICATE WILL BE VALIDATED BUT THE CERTIFICATE REVOCATION STATUS WILL NOT BE CHECKED.
+2025-07-28 18:42:29,632 - INFO - Snowflake Connected
+2025-07-28 18:42:32,243 - INFO - THIS CONNECTION IS IN INSECURE MODE. IT MEANS THE CERTIFICATE WILL BE VALIDATED BUT THE CERTIFICATE REVOCATION STATUS WILL NOT BE CHECKED.
+2025-07-28 18:42:48,380 - INFO - Successfully 100000 Rows Loaded to the table : FOOD_ORDERS
+
+2025-07-28 18:42:48,380 - INFO - --------------------------------------------
+2025-07-28 18:42:48,380 - INFO - DATA LOADING COMPLETED :)
+2025-07-28 18:42:48,380 - INFO - --------------------------------------------
+
+2025-07-28 18:42:48,387 - INFO - ETL PIPELINE FINISHED SUCCESFULLY :)
+2025-07-28 18:42:48,399 - INFO - closed
+2025-07-28 18:42:48,399 - INFO - No async queries seem to be running, deleting session
