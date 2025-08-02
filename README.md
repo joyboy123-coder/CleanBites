@@ -131,6 +131,7 @@ The processed data includes the following columns:
 | REGION | String | Customer region |
 | DELIVERY_STATUS | String | Normalized delivery status |
 | FOOD_ITEM | String | Food item names |
+| PLATFORM | String | Platform where food will got ordered by |
 
 
 ## 🔧 Customization
