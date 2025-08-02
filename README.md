@@ -99,6 +99,14 @@ The pipeline will:
 3. Load cleaned data into Snowflake
 4. Generate detailed logs in `log_file.log`
 
+## 📝 Logging
+
+The pipeline generates comprehensive logs in `log_file.log` including:
+- Extraction progress and errors
+- Transformation steps and data quality metrics
+- Loading status and row counts
+- Error handling and debugging information
+
 ### Sample Analytics Queries
 
 The project includes `sql_queries.sql` with sample analytics queries:
@@ -124,13 +132,6 @@ The processed data includes the following columns:
 | DELIVERY_STATUS | String | Normalized delivery status |
 | FOOD_ITEM | String | Food item names |
 
-## 📝 Logging
-
-The pipeline generates comprehensive logs in `log_file.log` including:
-- Extraction progress and errors
-- Transformation steps and data quality metrics
-- Loading status and row counts
-- Error handling and debugging information
 
 ## 🔧 Customization
 
@@ -148,50 +149,6 @@ Update `etl_pipeline.py` to change data source paths or add new extraction metho
 ### Extending Analytics
 Add new queries to `sql_queries.sql` for additional business insights.
 
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **Snowflake Connection Errors**
-   - Verify environment variables are set correctly
-   - Check network connectivity
-   - Ensure Snowflake account is active
-
-2. **Data Loading Failures**
-   - Check data types match Snowflake schema
-   - Verify table permissions
-   - Review log files for specific error messages
-
-3. **Memory Issues**
-   - Consider chunking large datasets
-   - Optimize transformation functions
-   - Monitor system resources
-
-## 📈 Performance Optimization
-
-- **Batch Processing**: Process data in chunks for large datasets
-- **Parallel Processing**: Implement multiprocessing for transformations
-- **Indexing**: Create appropriate Snowflake indexes for query performance
-- **Warehouse Scaling**: Adjust Snowflake warehouse size based on workload
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📞 Support
-
-For questions or issues:
-- Check the log files for detailed error information
-- Review the SQL queries for data validation
-- Contact the development team
 
 ---
 
