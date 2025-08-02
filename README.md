@@ -2,6 +2,9 @@
 
 A comprehensive ETL (Extract, Transform, Load) pipeline for processing food delivery data and loading it into Snowflake data warehouse.
 
+![Clean Bites Thumbnail](images/thumbnail/thumbnail_image.png)
+
+
 ## 📋 Project Overview
 
 CleanBites is a data engineering project that processes raw food delivery data through a robust ETL pipeline. The project extracts data from CSV files, applies data cleaning and transformation rules, and loads the processed data into Snowflake for analytics and reporting.
