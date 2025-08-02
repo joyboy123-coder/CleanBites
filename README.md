@@ -2,8 +2,15 @@
 
 A comprehensive ETL (Extract, Transform, Load) pipeline for processing food delivery data and loading it into Snowflake data warehouse.
 
-![Clean Bites Thumbnail](images/thumbnail/thumbnail_image.png)
+<p align="center">
+  <img src="images/thumbnail/thumbnail_image.png" alt="Clean Bites Thumbnail" style="width:100%; max-width:700px; border-radius: 8px;"/>
+</p>
 
+<p align="center">
+  <em>100,000 rows cleaned, transformed, and loaded — unstoppable ETL victory with pandas 🐼 and Snowflake ❄️ magic!</em>
+</p>
+
+---
 
 ## 📋 Project Overview
 
